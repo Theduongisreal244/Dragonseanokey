@@ -1,3 +1,4 @@
+
 game.StarterGui:SetCore("SendNotification", {
                             Title = "Loading..", 
                             Text = "Made By Reiji" ,
