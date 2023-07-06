@@ -52,8 +52,4 @@ OwO:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reiji0001/Fly-Gui/main/Fly-Gui_Source"))()
 end)
 
-OwO:Button("CopyLink Discord", function()
-setclipboard("https://discord.gg/jYM9cjPWVq")
-end
-
 OwO:Label("Made by Reiji", Color3.fromRGB(127, 143, 166))
