@@ -45,7 +45,7 @@ local args = {
     [2] = game:GetService("Players").LocalPlayer
 }
 
-game:GetService("Players").LocalPlayer.Character.DarkBladeAwakening.DayLaCombatNha.RemoteEvent:FireServer(unpack(args))
+game:GetService("Players").LocalPlayer.Character.DarkBladeAwake.DayLaCombatNha.RemoteEvent:FireServer(unpack(args))
 end
 end)
 
