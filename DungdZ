@@ -38,13 +38,35 @@ OwO:Button("FlyGui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reiji0001/Fly-Gui/main/Fly-Gui_Source"))()
 end)
 
-OwO:Button("FatVenom", function()
+OwO:Button("FatYoruV2", function()
 while wait() do
 local args = {
     [1] = 1,
     [2] = game:GetService("Players").LocalPlayer
 }
 
-game:GetService("Players").LocalPlayer.Character.Venom.DungCoHackNe.RemoteEvent:FireServer(unpack(args))
+game:GetService("Players").LocalPlayer.Character.DarkBladeAwakening.DayLaCombatNha.RemoteEvent:FireServer(unpack(args))
+end
+end)
+
+OwO:Button("FatDarkSword", function()
+while wait() do
+local args = {
+    [1] = 1,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.DarkSword.DayLaCombatNha.RemoteEvent:FireServer(unpack(args))
+end
+end)
+
+OwO:Button("FatLegendCombat", function()
+while wait() do
+local args = {
+    [1] = 1,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.LegendCombat.DayLaCombatNha.RemoteEvent:FireServer(unpack(args))
 end
 end)
